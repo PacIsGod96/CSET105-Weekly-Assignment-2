@@ -11,12 +11,19 @@
     <h3>By Rob Wiley and Collin Williams</h3>
     <br>
     <p>Select your move and then press "Oppponent's Turn" to complete the game!</p>
-    <div class="btn-grid">
-        <button onclick="rock()">Rock</button>
-        <button onclick="paper()">Paper</button>
-        <button onclick="scissors()">Scissors</button>
+    <div class="grid">
+        <div>
+            <div class="btn-grid">
+            <button onclick="rock()">Rock</button>
+            <button onclick="paper()">Paper</button>
+            <button onclick="scissors()">Scissors</button>
+        </div>
+        <button onclick="cpu()" class="cpu">Shoot!</button>
+        </div>
+        <div id="scoreContainer">
+            <button class="scoreTitle" onclick="userScore()">Click to View Score!</button>
+        </div>
     </div>
-    <button onclick="cpu()" class="cpu">Shoot!</button>
 <script src="script.js"></script>
 </body>
 </html>

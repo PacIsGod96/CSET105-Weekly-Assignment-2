@@ -7,6 +7,13 @@
     font-family: "Comic Sans MS", Verdana, sans-serif;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 40px;
+}
+
+
 /* style rules for text and buttons */
 
 button {
@@ -43,4 +50,9 @@ button:hover {
     display: block;
     margin: 10px auto;
     padding: 15px 107px;
+}
+
+.scoreTitle {
+    display: block;
+    margin: 20px auto ;
 }
