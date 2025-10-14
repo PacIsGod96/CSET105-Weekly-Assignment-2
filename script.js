@@ -19,4 +19,3 @@ function cpu(){
     let btnNumber = Math.floor(Math.random()*3)
     return btnNumber
 }
-
