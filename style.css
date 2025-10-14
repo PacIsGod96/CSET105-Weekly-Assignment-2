@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+button {
+    border: 2px solid #000;
+}
+
+.btn-grid {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.cpu {
+    display: block;
+    margin: 10px auto;
+}
