@@ -1,9 +1,13 @@
+/* css reset */
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: "Comic Sans MS", Verdana, sans-serif;
 }
+
+/* style rules for text and buttons */
 
 button {
     padding: 15px;
@@ -19,7 +23,14 @@ h1, h3, p {
 }
 
 button {
+    transition-duration: 0.3s;
     border: 2px solid #000;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-grid {
@@ -31,4 +42,5 @@ button {
 .cpu {
     display: block;
     margin: 10px auto;
+    padding: 15px 107px;
 }
