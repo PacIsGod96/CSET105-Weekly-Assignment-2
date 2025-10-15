@@ -17,6 +17,7 @@ for(let i = 0; i < btnInput.length; i++){
         }else{
             play = `Scissors`
         }
+        cpuContainer.innerHTML = `<p>CPU Selection: </p>`
         console.log(play)
         storeBtn = play
     })
@@ -59,7 +60,7 @@ function cpu(){
         score();
     }else if((storeBtn == `Scissors`) && (cpuAnswer == `Paper`)){
         userScore = userScore + 1;
-        cpuContainer.innerHTML = `<p>CPU Selection: ${cpuAnswer}</p>`
+       
         score();
     }
     console.log(userScore)
