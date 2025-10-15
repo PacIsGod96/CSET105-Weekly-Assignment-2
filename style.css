@@ -52,7 +52,13 @@ button:hover {
     padding: 15px 107px;
 }
 
-.scoreTitle {
+#scoreContainer {
     display: block;
-    margin: 20px auto ;
+    margin: 0 auto ;
 }
+
+.score {
+    display: block;
+    margin: 20px 0;
+}
+

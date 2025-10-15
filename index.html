@@ -13,15 +13,21 @@
     <p>Select your move and then press "Oppponent's Turn" to complete the game!</p>
     <div class="grid">
         <div class="btn-grid">
-            <button class="userBtn">Rock</button>
-            <button class="userBtn">Paper</button>
-            <button class="userBtn">Scissors</button>
+            <button class="userBtn" onclick="rock()">Rock</button>
+            <button class="userBtn" onclick="paper()">Paper</button>
+            <button class="userBtn" onclick="scissors()">Scissors</button>
         </div>
         <button onclick="cpu()" class="cpu">Shoot!</button>
-        </div>
-        <div id="scoreContainer">
-            <button class="scoreTitle" onclick="userScore()">Click to View Score!</button>
-        </div>
+    </div>
+    <div id="choiceContainer">
+
+    </div>
+    <div id="cpuContainer">
+
+    </div>
+        <p class="score">Score:</p>
+        <button id="scoreContainer">
+        </button>
     </div>
 <script src="script.js"></script>
 </body>
